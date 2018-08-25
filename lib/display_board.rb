@@ -2,5 +2,5 @@
 # out the current state.
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
-display_board = " #{turns[0]} | #{turns[1]} | #{turns[2]} "\n, "-----------"\n, " #{turns[3]} | #{turns[4]} | #{turns[5]} "\n, "-----------"\n," #{turns[6]} | #{turns[7]} | #{turns[8]} "
-print board
+def display_board(board)
+  print " #{board[0]} | #{board[1]} | #{board[2]} "\n, "-----------"\n, " #{board[3]} | #{board[4]} | #{board[5]} "\n, "-----------"\n," #{board[6]} | #{board[7]} | #{board[8]} "
