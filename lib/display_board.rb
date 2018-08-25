@@ -2,5 +2,5 @@
 # out the current state.
 
 turns = [" ", " ", " ", " ", " ", " ", " ", " ", " ", ]
-board = " #{turns[0]} | #{turns[1]} | #{turns[2]} ", "-----------", " #{turns[3]} | #{turns[4]} | #{turns[5]} ", "-----------"," #{turns[6]} | #{turns[7]} | #{turns[8]} "
+board = " #{turns[0]} | #{turns[1]} | #{turns[2]} \n", "-----------\n", " #{turns[3]} | #{turns[4]} | #{turns[5]} \n", "-----------\n"," #{turns[6]} | #{turns[7]} | #{turns[8]} "
 print board
